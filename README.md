@@ -9,17 +9,19 @@ Para poder demostrar y aprender la creación y consumo de Interfaces de Programa
 ## Historial de Prácticas
 |No.|Fecha|Descripción|Potenciador|Estatus|
 |---|-----|-----------|-----------|-------|
-|8.|17/10/2024|Nuevo Repositorio del Proyecto implementando .gitignore|1|⭐Activa|
-|9.|||||
+|8.|17/10/2024|Nuevo Repositorio del Proyecto implementando .gitignore|1|✅Finalizada|
+|9.|22/10/2024|Creación de una Aplicación Web usando Express|11|⭐Activa|
 |10.|||||
 |11.|||||
 |12.|||||
 |13.|||||
 |14.|||||
 
+## Tech Stack
+![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 
 ### Autor
-Jesús Domínguez Ramírez ✅
-Unidad 2
-Aplicaciones Web Orientadas a Servicios
+Jesús Domínguez Ramírez / [@hesuh05](https://github.com/hesuh05) <br>
+Unidad 2 <br>
+Aplicaciones Web Orientadas a Servicios <br>
 Octubre 2024
