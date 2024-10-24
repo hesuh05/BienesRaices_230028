@@ -1,4 +1,7 @@
 import express from 'express';
+import { formularioLogin } from '../controllers/userController.js';
+import { formularioRegister } from '../controllers/userController.js';
+import { formularioPasswordRecovery } from '../controllers/userController.js';
 const router = express.Router();
 
 // GET
@@ -33,4 +36,9 @@ contraseña ${newPassword}, pero se rechazo el cambio dado que la nueva contrase
 router.delete("/deleteUser/:email",function(request,response){
     response.send(`Se ha solicitado la eliminación del usuario asociado al correo ${request.params.email}`)
 })
+
+router.get("/login", formularioLogin /*middleware*/)
+router.get("/createAccount", formularioRegister /*middleware*/)
+router.get("/passwordRecovery", formularioPasswordRecovery /*middleware*/)
+
 export default router;

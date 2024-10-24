@@ -6,8 +6,11 @@
 import express from 'express';
 import generalRoutes from './routes/generalRoutes.js';
 import userRoutes from './routes/userRoutes.js';
-
 const app = express(); 
+
+app.set('view engine','pug')
+app.set('views','./views')
+
 // COnfiguramos nuestro servidor web
 const port = 3000;
 app.listen(port, ()=>{
